@@ -6,7 +6,7 @@ export default function Projects() {
         {
             name: "NeuroForge",
             description: "NeuroForge développe des solutions d’IA embarquée pour optimiser les performances des objets connectés industriels.",
-            link: "",
+            link: "https://github.com/gabinhallosserie/neuro-forge",
             logo: "/assets/logos/webstorm.svg",
             date: "juin 2025 - en cours de développement"
         },
