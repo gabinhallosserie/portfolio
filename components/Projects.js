@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Projects() {
     const projects = [
         {
-            name: "Vekto - Configuration de PC",
-            description: "Vekto est une application web permettant de configurer un PC en fonction de ses besoins et de son budget, avec des recommandations de composants.",
-            link: "https://vekto.vercel.app",
+            name: "Forge - Configuration de PC",
+            description: "Forge est une application web permettant de configurer un PC en fonction de ses besoins et de son budget, avec des recommandations de composants.",
+            link: "https://forge-build.vercel.app",
             logo: "/assets/logos/webstorm.svg",
-            date: "juin 2025 - encore en développement"
+            date: "juillet 2025 - encore en développement"
         },
         {
             name: "Bofar - Restaurant savoyard",
