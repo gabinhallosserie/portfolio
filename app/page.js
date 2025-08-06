@@ -39,9 +39,6 @@ export default function Home() {
 
             <Projects/>
 
-            <hr className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
-
-            <Blog/>
             <Footer/>
         </div>
     );
