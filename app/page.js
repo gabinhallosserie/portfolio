@@ -3,7 +3,6 @@
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 
 import Image from "next/image";
