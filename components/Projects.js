@@ -5,7 +5,7 @@ export default function Projects() {
     const projects = [
         {
             name: "EtherShade",
-            description: "EtherShade est un outil de cartographie réseau développé en Python avec Scapy, permettant de visualiser les connexions entre les machines d'un réseau local.",
+            description: "EtherShade est un outil de cartographie réseau développé en Python avec Scapy, permettant de visualiser les connexions entre les machines d&apos;un réseau local.",
             link: "",
             logo: "/assets/logos/pycharm.svg",
             date: "août 2025 - encore en développement"
