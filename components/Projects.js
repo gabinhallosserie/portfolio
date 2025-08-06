@@ -6,7 +6,7 @@ export default function Projects() {
         {
             name: "EtherShade",
             description: "EtherShade est un outil de cartographie réseau développé en Python avec Scapy, permettant de visualiser les connexions entre les machines d&apos;un réseau local.",
-            link: "",
+            link: "https://github.com/gabinhallosserie/ether-shade",
             logo: "/assets/logos/pycharm.svg",
             date: "août 2025 - encore en développement"
         },
