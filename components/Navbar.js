@@ -20,7 +20,7 @@ export default function Navbar() {
         <div id={"container"}
              className={`sticky top-0 ${isScrolled ? "w-full h-20 border-b" : "w-2/3 h-16 border"} px-6 bg-white/60 backdrop-blur-md text-black mt-4 flex justify-between items-center ${isScrolled ? "" : "rounded-full"} transition-all duration-300 ease-in-out z-20`}>
             <div className={"flex items-center space-x-3"}>
-                <Link href={"/public"} className={"flex justify-start items-center gap-3"}>
+                <Link href={"/"} className={"flex justify-start items-center gap-3"}>
                     {isScrolled && (
                         <Image src={"/assets/profile.JPEG"} width={1920} height={1920} alt={"Gabin Hallosserie"}
                                className={"w-12 h-12 rounded-full transition-transform duration-300"}/>
@@ -36,15 +36,15 @@ export default function Navbar() {
             </div>
 
             <div className={"flex items-center gap-8"}>
-                <Link href={"#about"}
-                      className={"relative text-sm font-semibold transition-all duration-300 ease-in-out group"}>
-                    À propos
-                    <span
-                        className={"absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"}></span>
-                </Link>
                 <Link href={"#projects"}
                       className={"relative text-sm font-semibold transition-all duration-300 ease-in-out group"}>
                     Projets
+                    <span
+                        className={"absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"}></span>
+                </Link>
+                <Link href={"#blog"}
+                        className={"relative text-sm font-semibold transition-all duration-300 ease-in-out group"}>
+                    Blog
                     <span
                         className={"absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"}></span>
                 </Link>

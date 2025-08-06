@@ -3,6 +3,7 @@
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 
 import Image from "next/image";
@@ -38,6 +39,10 @@ export default function Home() {
             <hr className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
 
             <Projects/>
+
+            <hr className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
+
+            <Blog/>
             <Footer/>
         </div>
     );

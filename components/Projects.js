@@ -4,6 +4,13 @@ import Link from "next/link";
 export default function Projects() {
     const projects = [
         {
+            name: "EtherShade",
+            description: "EtherShade est un outil de cartographie réseau développé en Python avec Scapy, permettant de visualiser les connexions entre les machines d'un réseau local.",
+            link: "",
+            logo: "/assets/logos/pycharm.svg",
+            date: "août 2025 - encore en développement"
+        },
+        {
             name: "Forge - Configuration de PC",
             description: "Forge est une application web permettant de configurer un PC en fonction de ses besoins et de son budget, avec des recommandations de composants.",
             link: "https://forge-build.vercel.app",
