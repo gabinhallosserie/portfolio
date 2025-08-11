@@ -1,5 +1,7 @@
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import {Poppins} from 'next/font/google';
+import { Poppins } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 const globalNextFont = Poppins({
@@ -15,9 +17,11 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="fr" className={"scroll-smooth"}>
-        <body className={`${globalNextFont.className} antialiased`}>
-        {children}
-        </body>
+            <body className={`${globalNextFont.className} antialiased`}>
+                <SpeedInsights />
+                <Analytics/>
+                {children}
+            </body>
         </html>
     );
 }
