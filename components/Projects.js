@@ -5,7 +5,7 @@ export default function Projects() {
     const projects = [
         {
             name: "Silent Loom",
-            description: "Silent Loom est un panel web pour gérer ses dossiers de projets WebStorm et qui donne une vue d'ensemble sur les projets en cours.",
+            description: "Silent Loom est un panel web pour gérer ses dossiers de projets WebStorm et qui donne une vue d&apos;ensemble sur les projets en cours.",
             link: "https://github.com/gabinhallosserie/silent-loom",
             logo: "/assets/logos/webstorm.svg",
             date: "août 2025 - septembre 2025"
