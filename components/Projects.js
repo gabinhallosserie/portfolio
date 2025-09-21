@@ -4,18 +4,11 @@ import Link from "next/link";
 export default function Projects() {
     const projects = [
         {
-            name: "EtherShade",
-            description: "EtherShade est un outil de cartographie réseau développé en Python avec Scapy, permettant de visualiser les connexions entre les machines d&apos;un réseau local.",
-            link: "https://github.com/gabinhallosserie/ether-shade",
-            logo: "/assets/logos/pycharm.svg",
-            date: "août 2025 - encore en développement"
-        },
-        {
-            name: "Forge - Configuration de PC",
-            description: "Forge est une application web permettant de configurer un PC en fonction de ses besoins et de son budget, avec des recommandations de composants.",
-            link: "https://forge-build.vercel.app",
+            name: "Silent Loom",
+            description: "Silent Loom est un panel web pour gérer ses dossiers de projets WebStorm et qui donne une vue d'ensemble sur les projets en cours.",
+            link: "https://github.com/gabinhallosserie/silent-loom",
             logo: "/assets/logos/webstorm.svg",
-            date: "juillet 2025 - encore en développement"
+            date: "août 2025 - septembre 2025"
         },
         {
             name: "Bofar - Restaurant savoyard",
