@@ -42,9 +42,9 @@ export default function Navbar() {
                     <span
                         className={"absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"}></span>
                 </Link>
-                <Link href={"#blog"}
+                <Link href={"#experiences"}
                         className={"relative text-sm font-semibold transition-all duration-300 ease-in-out group"}>
-                    Blog
+                    Expériences
                     <span
                         className={"absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"}></span>
                 </Link>

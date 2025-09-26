@@ -3,6 +3,7 @@
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
 
 import Image from "next/image";
@@ -16,8 +17,8 @@ export default function Home() {
                 <div className={"w-full xl:w-1/2 flex flex-col items-start"}>
                     <h1 className={"text-5xl font-black"}>Gabin Hallosserie</h1>
                     <p className={"text-md font-light text-gray-600"}>Actuellement à la recherche d&apos;une alternance
-                        en développement web et logiciel pour une durée de 1 à 3 ans dans le cadre de mon bachelor CSI
-                        que je commencerai en septembre 2025.</p>
+                        en développement web et logiciel pour une durée de 1 à 3 ans dans le cadre de mon bachelor DWFS
+                        que j&apos;ai commencé en septembre 2025.</p>
 
                     <div className={"px-3 py-2 bg-blue-100 mt-5 flex justify-start items-center gap-2 rounded-full"}>
                         <div className={"w-3 h-3 bg-blue-500 rounded-full animate-pulse"}></div>
@@ -32,12 +33,13 @@ export default function Home() {
             </div>
 
             <hr className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
-
             <Skills/>
 
-            <hr className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
-
+            <hr id={"projects"} className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
             <Projects/>
+
+            <hr id={"experiences"} className={"w-2/3 h-1 bg-gray-300 mt-5 mb-20"}/>
+            <Experiences/>
 
             <Footer/>
         </div>

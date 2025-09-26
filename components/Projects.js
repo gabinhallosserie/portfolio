@@ -27,7 +27,7 @@ export default function Projects() {
     ]
 
     return (
-        <div id={"projects"} className={"w-2/3 flex flex-col justify-start items-start gap-10 mx-auto mb-20"}>
+        <div className={"w-2/3 flex flex-col justify-start items-start gap-10 mx-auto mb-20"}>
             <div className={"w-full grid grid-cols-1 md:grid-cols-2 gap-10"}>
                 {projects.map((project, index) => (
                     <div
